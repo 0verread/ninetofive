@@ -1,9 +1,11 @@
 import React from "react";
 
+import Landing from "./pages/Landing";
+
 import './App.css';
 
 export default function App() {
   return (
-    <div className="text-white text-4xl font-bold">OpenJobs</div>
+    <Landing />
   );
 }

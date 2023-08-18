@@ -4,6 +4,6 @@ import './App.css';
 
 export default function App() {
   return (
-    <div className="text-primary text-4xl font-bold">OpenJobs</div>
+    <div className="text-white text-4xl font-bold">OpenJobs</div>
   );
 }

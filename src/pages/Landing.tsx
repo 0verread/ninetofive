@@ -8,6 +8,9 @@ const Landing = () => {
           <h1 className='text-white font-header font-bold text-5xl mb-6'>an open source and community led job search and hiring platform
           </h1>
         </div>
+        <a className="inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium text-black transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-white" href="/">
+          <span className="justify-center">Subscribe</span>
+        </a>
       </div>
     </section>
   )

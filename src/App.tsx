@@ -4,8 +4,10 @@ import Landing from "./pages/Landing";
 
 import './App.css';
 
-export default function App() {
+const App: React.FC = () => {
   return (
     <Landing />
   );
 }
+
+export default App;

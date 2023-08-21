@@ -1,19 +1,24 @@
 import React from "react";
 
+import Header from "../components/Header";
+
 const Landing = () => {
   return (
-    
-    <section className="section flex items-center justify-center h-screen md:flex md:justify-center overflow-y-hidden">
-      <div className='bg-main text-center'>
-        <div className='wrapper max-w-xl transform -translate-y-18 sm:-translate-y-2xfull'>
-          <h1 className='text-white font-header font-bold text-5xl mb-6'>an open source and community led job search and hiring platform
+    <>
+      <Header />
+      <section>
+      <div className='relative z-0 mx-auto max-w-3xl pb-24 pt-12 text-center'>
+        <div className='absolute -top-4 -z-10 flex w-full justify-center'>
+          <div className='h-[310px] w-[310px] max-w-full animate-pulse-slow rounded-full bg-[#8678F9] opacity-20 blur-[100px]' />
+        </div>
+        <div>
+          <h1 className='mb-8 bg-gradient-to-t from-[#6d6d6d] to-[#f4f4f4] bg-clip-text text-4xl text-transparent md:text-5xl'>
+            an open source, community led job board and hiring platform
           </h1>
         </div>
-        <a className="inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium text-black transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-white" href="/">
-          <span className="justify-center">Subscribe</span>
-        </a>
       </div>
     </section>
+  </>
   )
 };
 

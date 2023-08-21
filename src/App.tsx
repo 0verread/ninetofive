@@ -10,8 +10,7 @@ import './App.css';
 const App: React.FC = () => {
   return (
     <>
-    <div className="App">
-      <Header />
+    <div className="mx-auto flex min-h-screen max-w-5xl flex-col px-4">
       <Landing />
     </div>
     </>

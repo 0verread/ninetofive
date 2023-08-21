@@ -5,10 +5,10 @@ import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 
 const Header = () => {
   return (
-    <nav className='bg-white px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 dark:bg-black'>
+    <nav className='px-2 sm:px-4  w-full z-20 top-0 left-0 flex items-center justify-between py-10'>
     <div className='container flex flex-wrap items-center justify-between mx-auto'>
       <a href="/" className='flex items-center'> 
-        <span className='self-center text-xl font-semibold whitespace-nowrap dark:text-white'>Orgate AI</span>
+        <span className='self-center text-xl font-semibold whitespace-nowrap dark:text-white'>Openjobs</span>
       </a>
       <nav className="flex gap-6">
         <a

@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import Signup from "./buttons/Signup";
+
 import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons"; 
 
 const Header = () => {
@@ -12,20 +14,14 @@ const Header = () => {
         </a>
         <nav className="flex gap-6">
           <a
-            href='https://twitter.com/heysubha'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='inline-flex'>
-            <TwitterLogoIcon className='h-6 w-6 text-slate-400 transition-colors hover:text-white' />
-          </a>
-          <a
             href='https://github.com/0verread/openjobs'
             target='_blank'
             rel='noopener noreferrer'
             className='inline-flex'
           >
-            <GitHubLogoIcon className='h-6 w-6 text-slate-400 transition-colors hover:text-white' />
+            <GitHubLogoIcon className='h-10 w-6 text-slate-400 transition-colors hover:text-white' />
           </a>
+          <Signup />
         </nav>
       </div>
     </nav>

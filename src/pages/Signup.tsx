@@ -1,10 +1,17 @@
 import React from "react";
 
+import { ClerkProvider } from "@clerk/clerk-react";
+
+const clerkPubKey = process.env?.REACT_APP_CLERK_PUBLISHABLE_KEY;
+if (!clerkPubKey){
+  throw new Error("Missing Publishable key")
+}
+
 const Signup = () => {
   return (
-    <div>
-      Signup page
-    </div>
+    <ClerkProvider publishableKey="{clerkPubKey}">
+      <div>Welcome to Openjobs</div>
+    </ClerkProvider>
   )
 };
 

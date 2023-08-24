@@ -17,8 +17,7 @@ const Header = () => {
             href='https://github.com/0verread/openjobs'
             target='_blank'
             rel='noopener noreferrer'
-            className='inline-flex'
-          >
+            className='inline-flex'>
             <GitHubLogoIcon className='h-10 w-6 text-slate-400 transition-colors hover:text-white' />
           </a>
           <Signup />

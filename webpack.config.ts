@@ -1,10 +1,11 @@
 import path from "path";
-import { Configuration } from "webpack";
+import { Configuration, DefinePlugin, webpack } from "webpack";
 import CopyWebpackPlugin from "copy-webpack-plugin";
 
+// import
+// dotenv.config();
 const config: Configuration = {
-  mode:
-    (process.env.NODE_ENV as "production" | "development" | undefined) ?? "development",
+  mode: (process.env.NODE_ENV as "production" | "development" | undefined) ?? "development",
   entry: "./src/index.tsx",
   module: {
     rules: [
@@ -30,6 +31,9 @@ const config: Configuration = {
     new CopyWebpackPlugin({
       patterns: [{ from: "public" }],
     }),
+    new DefinePlugin({
+      'process.env': JSON.stringify(process.env)
+    })
   ],
 };
 

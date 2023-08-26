@@ -22,7 +22,7 @@ const Landing = () => {
           <div className="flex justify-center gap-6">
             <Signup />
             <a className="text-sm font-semibold leading-6 text-white items-center flex flex-initial gap-2" 
-                      href='https://github.com/0verread/openjobs'>
+                      href='https://github.com/0verread/openqueue'>
             <GitHubLogoIcon className='h-10 w-6 text-slate-400 transition-colors hover:text-white' /> 
               Star on Github
             </a>

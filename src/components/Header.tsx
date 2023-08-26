@@ -10,11 +10,11 @@ const Header = () => {
     <nav className='px-2 sm:px-4  w-full z-20 top-0 left-0 flex items-center justify-between py-10'>
       <div className='container flex flex-wrap items-center justify-between mx-auto'>
         <a href="/" className='flex items-center'> 
-          <span className='self-center text-xl font-semibold whitespace-nowrap dark:text-white'>Openjobs</span>
+          <span className='self-center text-xl font-semibold whitespace-nowrap dark:text-white'>OpenQueue</span>
         </a>
         <nav className="flex gap-6">
           <a
-            href='https://github.com/0verread/openjobs'
+            href='https://github.com/0verread/openqueue'
             target='_blank'
             rel='noopener noreferrer'
             className='inline-flex'>

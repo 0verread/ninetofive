@@ -1,5 +1,5 @@
 {
-  "name": "OpenJobs",
+  "name": "openqueue",
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack serve",

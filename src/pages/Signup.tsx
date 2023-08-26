@@ -10,7 +10,7 @@ if (!clerkPubKey){
 const Signup = () => {
   return (
     <ClerkProvider publishableKey="{clerkPubKey}">
-      <div>Welcome to Openjobs</div>
+      <div>Welcome to OpenQueue</div>
       <div>Sign up here</div>
     </ClerkProvider>
   )

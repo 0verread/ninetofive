@@ -1,2 +1,2 @@
-# OpenJobs
-Open source and community led job board 
+# OpenQueue
+an open source waitlist builder for new product launch

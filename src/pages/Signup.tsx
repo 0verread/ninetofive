@@ -11,6 +11,7 @@ const Signup = () => {
   return (
     <ClerkProvider publishableKey="{clerkPubKey}">
       <div>Welcome to Openjobs</div>
+      <div>Sign up here</div>
     </ClerkProvider>
   )
 };

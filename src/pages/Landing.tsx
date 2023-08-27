@@ -15,8 +15,8 @@ const Landing = () => {
             <div className='h-[310px] w-[310px] max-w-full animate-pulse-slow rounded-full bg-[#de4d40] opacity-20 blur-[100px]' />
           </div>
           <div>
-            <h1 className='mb-8 bg-gradient-to-t from-[#6d6d6d] to-[#e32e2e] bg-clip-text text-4xl text-transparent md:text-5xl'>
-                an open source, community led job board and hiring platform
+            <h1 className='mb-10 bg-gradient-to-t from-[#6d6d6d] to-[#e32e2e] bg-clip-text text-4xl text-transparent md:text-6xl'>
+              build a quick waitlist for your early users
             </h1>
           </div>
           <div className="flex justify-center gap-6">
